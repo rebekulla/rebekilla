@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+
+    <Style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Estilo del cuerpo de la pagina */
+        body {
+            font-family:Dancing script;
+            margin: 0;
+        }
+
+        /* Header, logo y titulo */
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: #D7A49A;
+            color: rgb(97, 39, 0);
+        }
+
+        /* Estilo de la barra de navegacion */
+        .navbar {
+            display: flex;
+            background-color:#e2cfcc ;
+        }
+
+        /* Estilo de los enlaces de la barra de navegacion */
+        .navbar a {
+            color: rgb(97, 39, 0);
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        /* Cambiar el color cuando paso el mouse */
+        .navbar a:hover {
+            background-color: #D7A49A;      
+        } 
+        
+        /* Contenedor de columnas */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* Barra lateral */
+        .side {
+            flex: 30%;
+            background-color: #D7A49A;
+            padding: 20px;
+        }
+
+        /*Columna principal */
+        .main {
+            flex: 70%;
+            padding: 20px;
+            background-color:#dfb0a7;
+            padding: 20px;
+        }
+
+        /* Imagen */
+        .imagen {
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background:#e2cfcc;
+        }
+
+        /*Flex Responsive */
+        @media screen and (max-width: 700px) {
+            .row,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+
+
+        h1{
+            color: #ffffff;
+            font-family: Dancing script;
+        }
+
+        p{
+            color: #ffffff;
+            font-family: Dancing script;
+        }
+
+        h2{
+            color: #ffffff;
+            font-family: Dancing script;
+        }
+         
+        h3{
+            color: #ffffff;
+            font-family: Dancing script;
+        }
+
+        h4{
+            color: #ffffff;
+            font-family: Dancing script;
+        }
+
+        h5{
+            color: #ffffff;
+            font-family: Dancing script;
+        }
+
+    </Style>
+
+    </head>
+    <body>
+    <center>
+        <div style="background:#e2cfcc; padding: 5px;">
+            <h4 style="text-align: center;">Yeni Rebeca Perez Gonzalez</h4>
+        </div>
+    
+        <!--Header-->
+        <div class="header">
+            <h1>Contacto</h1>
+        </div>
+    
+        <!--Barra de navegacion-->
+        <div class="navbar">
+            <a href="index.html">Inicio</a>
+            <a href="Quien soy.html">Quiene soy</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+
+        <div class="row">
+            <div class="side">
+                <h2>¡soñar no cuesta nada! </h2>
+                <h5>Por ultimo, recomiendo leer mi trabajo ya que te puede ayudar a reactivar esos sueños que en algun momento dejaste de soñar por miedo a lo que podria pasar.</h5>
+                <div class="frase"><img src="imag/frase.jpg" alt="frase" width="250" height="270"></div>
+                <p>Como se a podido notar tengo una misma tematica en todos mis trabajos ya que es algo que me apaciona.</p>
+                <h3>Una vez un sabio me dijo que no solo vasta con estudiar algo por el dinero que pueda generar si no que se trata de la pasion y la emocion que siento al hacerlo del sentimiento de querer lograrlo y llegar mas lejos si Dios te lo permite.</h3>
+                <p>Nada llega facil ya que lo que facil llega, facil se va por eso empezare a luchar por eso que tanto me gusta para lograr mi sueño. No quiere decir que dejaras de disfrutar esa etapa de tu vida solo por dar a conocer aquello que te puede ayudar a estar en la sima si lo vez desde otra perspectiva solo le estas dando un arrenpojon a ese sueño para que llegue mas rapido.</p>
+            </div>
+
+        <div class="main">
+            <h2>Este a sido mi mundo lleno de aspiraciones</h2>
+            <h5>Aqui hable de lo que me hace feliz de solo pensarlo, no solo lo considero un sueño lo considero una aventura la cual espero llegar a la meta y si en algun momento llegara a tropesar levantarme y seguir luchando por aquello que tanto anelo.</h5>
+            <div class="mi contacto"><img src="imag/ju.jpg" alt="yo" width="500" height="600"></div>
+            <p>¡Hasta aqui llego nuestro viaje adios¡</p>
+
+        </div>
+        <!--Footer-->
+        </div>
+        <footer class="footer">
+            <p><h1>Todo esto es mi mundo</h1></p>
+        </footer>
+</center>
+</body>
+</html>
